@@ -28,6 +28,13 @@ public class Main {
 
     public static Integer findMax(List<List<String>> list) {
 
+
+return list.stream()
+                .flatMap(List::stream)  // Flatten the lists
+                .map(Integer::parseInt) // Convert to integers
+                .max(Integer::compareTo) // Find max
+                .orElseThrow(); // Handle empty lists safely
+
         return -1;
     }
 
