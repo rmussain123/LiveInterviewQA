@@ -1,0 +1,9 @@
+1. What are the components of Spring boot?
+2. How do you improve performance of 5L record
+3. How do you do Pagination in spring boot?
+4. Actuator, Hystrix?
+5. JPA query? Native query and Hybernate Query Language?
+6. What is CI/CD?
+7. If multi DB how can you switch the DB ? what was the annotations?
+8. AWS Secret Manager
+9
