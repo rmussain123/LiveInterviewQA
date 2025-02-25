@@ -7,3 +7,4 @@
 7. If multi DB how can you switch the DB ? what was the annotations?
 8. AWS Secret Manager
 9. Springboot Cache, How to handle this?
+10. db connective?
