@@ -1,0 +1,51 @@
+1. What are the challenges you faced in microservices and Spring boot as of now in your career?
+
+		Given your extensive experience, some of the challenges you've likely encountered in microservices and Spring Boot could include:
+
+			Service Communication and Integration:
+
+			Challenge: Managing inter-service communication (REST, gRPC, messaging queues) can be tricky when services need to be loosely coupled but still interact efficiently.
+			Solution: Leveraging tools like Spring Cloud or API gateways to standardize communication protocols and ensure resilience through patterns like circuit breakers (e.g., Hystrix).
+			Distributed System Complexity:
+
+			Challenge: Microservices architectures introduce complexity due to the need for managing multiple distributed services, leading to challenges around data consistency, network latency, and failure handling.
+			Solution: Implementing eventual consistency with strategies like Event Sourcing, Saga Pattern, and using distributed tracing tools (e.g., Spring Cloud Sleuth) to track and monitor requests across services.
+			Database Management:
+
+			Challenge: Deciding whether to use a shared database or separate databases for each microservice. Managing data consistency across services can lead to challenges like the "Distributed Transaction Problem."
+			Solution: Embracing patterns like Database per Service, CQRS (Command Query Responsibility Segregation), and using tools like Spring Data and JPA/Hibernate for ORM.
+			Versioning and Backward Compatibility:
+
+			Challenge: Ensuring backward compatibility when making changes to APIs or services, especially when dealing with multiple versions of microservices.
+			Solution: Implementing API versioning strategies and leveraging tools like Swagger/OpenAPI for clear API documentation.
+			Security:
+
+			Challenge: Securing microservices and APIs can be more complex, especially with many services needing access controls, authentication, and authorization.
+			Solution: Using OAuth2 and JWT for service-to-service authentication and implementing centralized authentication with Spring Security and Spring OAuth.
+			Monitoring and Logging:
+
+			Challenge: When working with multiple services, monitoring performance and debugging issues can become a huge task, especially without centralized logging.
+			Solution: Implementing centralized logging using tools like ELK Stack (Elasticsearch, Logstash, Kibana) or integrating with platforms like Prometheus and Grafana for metrics.
+			Testing:
+
+			Challenge: Unit and integration testing microservices effectively, especially when services depend on each other.
+			Solution: Using tools like WireMock or Spring Cloud Contract for mocking dependencies and ensuring that tests simulate real-world interactions.
+			Scaling and Performance:
+
+			Challenge: Handling scaling issues with microservices, especially in a cloud-native environment, where scaling should be seamless but isn't always straightforward.
+			Solution: Leveraging Kubernetes, Docker, and Spring Boot's support for horizontal scaling, while ensuring microservices are stateless for ease of scaling.
+			Deployment and CI/CD Pipelines:
+
+			Challenge: Creating an efficient CI/CD pipeline for microservices that accommodates building, testing, and deploying multiple services simultaneously.
+			Solution: Using Jenkins, GitLab CI/CD, or other tools to create a robust pipeline with containerization (Docker) and orchestration (Kubernetes) for deployment.
+			Service Discovery:
+
+			Challenge: Managing dynamic scaling and service discovery when services are added or removed from a cluster.
+			Solution: Using tools like Eureka (Spring Cloud) or Consul to handle service registration and discovery automatically.
+			Would you say these challenges resonate with your experiences, or have there been other specific obstacles you’ve encountered?
+			
+			
+2. What are the microservices design patterns you used?
+3. Remove first 2 repeated numbers int num [] = { 1,2,3,1,2,3,4,4,5,5,5,6,8,9};
+4. Have you worked in Spring boot security?
+		
